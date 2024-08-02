@@ -1,0 +1,49 @@
+#about-us{
+    justify-content: space-between;
+    gap: 2vw;
+
+    padding: 6vw 3.5vw 3vw;
+    position: relative;
+}
+
+#about-us .image-column{
+    max-width: 50%;
+}
+
+.image-column img{
+    width: 45vw;
+    height: auto;
+}
+
+#about-us .text-column{
+    position: relative;
+    max-width: 42vw;
+}
+
+.text-column .text-p{
+    margin-bottom: 10px;
+}
+
+#about-us .icon-list{    
+    margin: 2vw 0;
+}
+
+.counter-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.counter-item .number{
+    color: var(--color-dark-blue);
+    font-weight: var(--font-black);
+    font-size: 3.1vw;
+
+    margin-bottom: 5px;
+}
+
+.counter-text{
+    color: var(--color-black);
+}

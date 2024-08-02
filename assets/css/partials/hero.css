@@ -1,0 +1,36 @@
+#hero{
+    background-color: var(--color-blue);
+
+    justify-content: space-between;
+
+    padding: 5vw 3.5vw;
+}
+
+.banner-text-container{
+    color: var(--color-white);
+    max-width: 49vw;
+}
+
+.banner-text-container .title{
+    font-size: 4.1vw;
+    font-weight: var(--font-black);
+    letter-spacing: 0.07vw;
+
+    margin: 2.4vh 0;
+}
+
+.banner-text-container .text{
+    margin-bottom: 4.17vh;
+    color: var(--color-white);
+}
+
+.banner-text-container .btn{
+    border: none;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+.banner-image-container img{
+    width: 34vw;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}

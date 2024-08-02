@@ -1,0 +1,82 @@
+footer{
+    background-color: #000;
+    color: var(--color-white);
+    padding: 0 3.5vw;
+}
+
+/*Banner*/
+footer .banner{
+    padding: 5vw 8vw 4vw;
+
+    background-color: #214554;
+    position: relative;
+    top: -100px;
+}
+
+footer .banner-title{
+    font-size: 4vw;
+    font-weight: var(--font-black);
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+footer .btn{
+    background-color: #000;
+    color: var(--color-white);
+}
+
+/* Footer Menu */
+.footer-menu{
+    display: grid;
+    grid-template-columns: 40vw 30vw;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-menu .text-p{
+    color: var(--color-white);
+}
+
+/* Icon list */
+.footer-menu .icon-list li i{
+    color: var(--color-light-blue);
+}
+
+.footer-menu .icon-list li:hover{
+    cursor: pointer;
+
+    transform: translateX(2%);
+    transition: ease-in .2s;
+    opacity: 0.7;
+}
+
+/* Social icons list */
+.social-icon-list{
+    margin-top: 4vw;
+}
+
+.social-icon-list i{
+    font-size: 2.2vw;
+    margin-right: 1vw;
+    color: var(--color-light-blue);
+}
+
+.social-icon-list i:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* copyright footer */
+.footer-copyright{
+ display: flex;
+ justify-content: space-between;
+ 
+ margin-top: 10vw;
+ padding: 2vw 0;
+ 
+ border-top: 1px solid var(--color-gray);
+}
+
+.footer-copyright .policies{
+    gap: 4vw;
+}

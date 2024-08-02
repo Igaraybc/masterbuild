@@ -1,0 +1,43 @@
+@import 'partials/hero.css';
+@import 'partials/about-us.css';
+@import 'partials/procedure-work.css';
+@import 'partials/slider.css';
+@import 'partials/why-us.css';
+
+.section-title-sm, .section-title-l{
+    font-weight: var(--font-black);
+    letter-spacing: 0.07vw;
+}
+
+.section-title-sm{
+    font-size: 1.2vw;  
+    color: var(--color-dark-blue);
+    position: relative;
+}
+
+.section-title-l{
+    font-size: 3.1vw;
+    color: var(--color-black);
+
+    margin: 1.8vh 0;
+    position: relative;
+}
+
+.text-p{
+    font-size: max(8px, 1.1vw);
+    color: var(--color-gray);
+}
+
+.icon-list{
+    list-style: none;
+}
+
+.icon-list li{
+    margin-bottom: 1vw;
+}
+
+.icon-list i{
+    margin-right: 2vw;
+    font-size: 1.3vw;
+    color: var(--color-dark-blue);
+}

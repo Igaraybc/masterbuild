@@ -1,0 +1,32 @@
+main:has(> #page-not-found){
+    background-color: var(--color-blue);
+}
+
+#page-not-found{
+    color: var(--color-white);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+#page-not-found .content{
+    text-align: center;
+}
+
+#page-not-found h1{
+    font-size: 7vw;
+    font-weight: var(--font-black);
+    letter-spacing: 0.07vw;
+}
+
+#page-not-found h3{
+    margin: 2vw auto;
+}
+
+#page-not-found .btn{
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}

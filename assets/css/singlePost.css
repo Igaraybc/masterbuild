@@ -1,0 +1,46 @@
+#single-post-page .header-page{
+    padding-bottom: calc(7vw + 100px);
+}
+
+.post-container {
+    display: flex;
+
+    position: relative;
+    top: -100px;
+
+    margin: auto 3.5vw;
+}
+
+.post{
+    background-color: var(--color-white);
+    padding: 6vw 8vw;
+    padding-bottom: 0;
+}
+
+.post img {
+    max-height: 21vw;
+
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+   
+
+    float: left;
+}
+
+.post .title{
+    margin-top: 0px;
+}
+
+.post .text-p{
+    margin-bottom: 10px;
+}
+
+.post .text-full-width{
+    float: left;
+}
+
+br{
+    display: block; 
+    content: "";
+    margin-top: 10px; 
+}

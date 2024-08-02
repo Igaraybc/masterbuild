@@ -1,0 +1,45 @@
+#why-us{
+    position: relative;
+    justify-content: space-between;
+    gap: 2vw;
+
+    padding: 3vw 3.5vw;
+}
+
+#why-us .text-column{
+    position: relative;
+}
+
+#why-us .video-column{
+    max-width: 50%;
+    position: relative;
+}
+
+.video-column video{
+    width: 45vw;
+}
+
+#why-us .icon-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2vw;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.play-icon{
+    font-size: 6vw;
+    color: var(--color-white);
+
+    position: absolute;
+    left: calc(50% - 3vw);
+    top: calc(50% - 3vw);
+    z-index: 1;
+}
+
+.video-column:hover{
+    cursor: pointer;
+}
+

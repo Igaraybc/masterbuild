@@ -1,0 +1,47 @@
+#procedure-work{
+    position: relative;
+    padding: 3vw 3.5vw;
+}
+
+#procedure-work .title{
+    min-height: 9vw;
+    margin-bottom: 30px;
+
+    position: relative;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+}
+
+.card{
+    max-width: 30vw;
+    padding: 2vw;
+}
+
+.card:not(.card-highlight){
+    border: 1px solid #e0e0e0;
+}
+
+.card-highlight{
+    background-color: var(--color-dark-blue);
+}
+
+.card-icon{
+    font-size: 3vw;
+    color: var(--color-dark-blue);
+    margin-bottom: 1vw;
+}
+
+.card-title{
+    margin: 1vw 0;
+}
+
+.card-highlight .card-icon, 
+.card-highlight .card-title,
+.card-highlight .card-text
+{
+    color: var(--color-white);
+}
